@@ -95,4 +95,101 @@ switch(letra) {
     break;
 }*/
 
-/*4)*/
+/*4)
+let numeroDeDia;
+let diaDeSemana=['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes'];
+numeroDeDia=parseInt(prompt('Ingrese un numerodel 1 al 5'));
+
+switch (numeroDeDia) {
+    case 1 :
+        console.log(diaDeSemana[0]);
+        break;
+    case 2 :
+        console.log(diaDeSemana[1]);
+        break;
+    case 3 :
+        console.log(diaDeSemana[2]);
+        break;
+    case 4 :
+        console.log(diaDeSemana[3]);
+        break;
+    case 5 :
+        console.log(diaDeSemana[4]);
+        break;
+    default :
+        console.log('No es un valor valido');
+        break;
+}
+*/
+
+/*5)
+
+let letter;
+letter=prompt('Ingrese una letra cualquiera');
+
+
+switch (letter) {
+    case 'A':
+    case 'B':
+    case 'C':
+    case 'D':
+    case 'E':
+    case 'F':
+    case 'G':
+    case 'H':
+    case 'I':
+    case 'J':
+    case 'K':
+    case 'L':
+    case 'M':
+    case 'N':
+    case 'Ñ':
+    case 'O':
+    case 'P':
+    case 'Q':
+    case 'R':
+    case 'S':
+    case 'T':
+    case 'U':
+    case 'V':
+    case 'W':
+    case 'X':
+    case 'Y':
+    case 'Z':    
+        console.log('Esta en mayusuclas');
+        break;
+    
+    default :
+        console.log('No es un valor valido');
+        break;    
+}
+*/
+
+/*6)
+let notaDeExamen;
+notaDeExamen=parseInt(prompt('Ingrese su nota del examen'));
+
+switch(notaDeExamen) {
+    case 1:
+    case 2:
+    case 3:
+        console.log('Suspendido');
+        break;
+    case 4:
+    case 5:
+    case 6:
+        console.log('Aprobado');
+        break;
+    case 7:
+    case 8:
+        console.log('Notable');
+        break;
+    case 9:
+    case 10:
+        console.log('Sobresaliente');
+        break;
+    default :
+    console.log('No es una nota valida');
+    break;    
+}
+*/
